@@ -18,7 +18,6 @@ public:
    // helper functions
    friend bool Null(const BigInt &);
    friend int Length(const BigInt &);
-   friend void divide_by_2(BigInt &a);
    int operator[](const int)const;
 
    //comparison operator
@@ -117,12 +116,6 @@ bool Null(const BigInt& a){
 int Length(const BigInt & a)
 {
     return a.digit.size();
-}
-
-
-void divide_by_2(BigInt &a)
-{
-    //implementation remaining
 }
 
 
