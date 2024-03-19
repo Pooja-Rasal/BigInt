@@ -465,6 +465,8 @@ int main()
     cout<<"summation of above two numbers is"<<"->";
     a+=b;
     cout<<a<<endl;
+    cout<<"--------sum with int----------"<<endl;
+    cout<<a+123456767895322<<endl;
 
     cout<<"multiplication of above two numbers is"<<"->";
     a*=b;
